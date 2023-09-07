@@ -13,9 +13,30 @@ if(isNaN(km)){
   valid = 1;
 }
 
+if(valid){
+  
+  //definizione dello sconto
+  if(age < 18 ) {
+    discount = 20;
+  }else if (age >= 65){
+    discount = 40;
+  }else {
+    discount = 0;
+  }
+
+  //calcolo del prezzo 
+
+  price = km * 0.21;
+  price = price - (price/100 * discount);
+  price = price.toFixed(2);
+
+}
+
 
 
 console.log(message); 
 console.log(age);
 console.log(km);
+console.log(discount);
+console.log(price);
 
