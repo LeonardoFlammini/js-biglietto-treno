@@ -10,4 +10,6 @@ L’output del prezzo finale va messo fuori in forma umana (con massimo due deci
 
 ## Svolgimento
 
-1. 
+1. Acquisisco i km da percorrere e l'età con dei prompt in due variabili
+1. calcolo il prezzo in base allo sconto e ai km
+1. stamppo a video i km, l'età, il prezzo e lo sconto
