@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.css" integrity="sha512-azoUtNAvw/SpLTPr7Z7M+5BPWGOxXOqn3/pMnCxyDqOiQd4wLVEp0+AqV8HcoUaH02Lt+9/vyDxwxHojJOsYNA==" crossorigin="anonymous"/>
+
+  <style>
+    #price-output{
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    #discount-outpu{
+      color: brown;
+      font-weight: bold;
+    }
+  </style>
+
+  <title>Biglietto Treno</title>
+</head>
+<body>
+
+  <div class="container my-3 ">
+    <h1>Biglietto Treno</h1>
+    <hr>
+    <div id="km" class="d-flex align-items-center">
+      <h4 class="d-inline-block ">Chilometri da percorrere:</h4> 
+      <span class="ms-1" id="km-output"></span>
+    </div>
+
+    <div id="customer" class="d-flex align-items-center">
+      <h4 class="d-inline-block ">Età del passeggero</h4> 
+      
+      <span class="ms-1" id="customer-output"></span>
+    </div>
+
+    <div id="discount" class="d-flex align-items-center">
+      <h4 class="d-inline-block ">Diritto allo sconto del:</h4> 
+      <span class="ms-1" id="discount-output"></span>
+      <span class="ms-1">&percnt;</span> 
+    </div>
+
+    <div id="price" class="d-flex align-items-center">
+      <h4 class="d-inline-block ">Prezzo Finale</h4> 
+      <span class="ms-1">&euro;</span> 
+      <span class="ms-1" id="price-output"></span>
+    </div>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
